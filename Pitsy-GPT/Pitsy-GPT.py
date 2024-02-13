@@ -4,7 +4,7 @@ import streamlit as st
 class PitsyAutomationGPT:
     def __init__(self):
         # Directly setting the API key - not recommended for production
-        self.api_key = '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'
+        self.api_key = 'pitsy-gpt-api-key'
         openai.api_key = self.api_key
         self.conversation_history = []
 
